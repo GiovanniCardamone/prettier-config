@@ -1,0 +1,23 @@
+{
+  "name": "@giovannicardamone/prettier-config",
+  "version": "0.0.2",
+  "description": "My Prettier configuration",
+  "main": ".prettierrc.json",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanniCardamone/prettierrc.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "Giovanni Cardamone <g.cardamone2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiovanniCardamone/prettierrc/issues"
+  },
+  "homepage": "https://github.com/GiovanniCardamone/prettierrc#readme"
+}
