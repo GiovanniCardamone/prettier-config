@@ -1,4 +1,4 @@
-name: Release Package
+name: CI
 
 on:
   push:
@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:
-
   # create / release
   Release:
     name: Create Release Package
@@ -42,5 +41,3 @@ jobs:
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
-
-
